@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Вяночкi ад Купалiнкi</title>
+    <link rel="stylesheet" href="./css/venok.css">
+</head>
+<body>
+    <div class="content" id="content" style="display: none;">
+        <audio id="intro-sound">
+            <source src="./sound/intro-tree.ogg" type="audio/ogg">
+            Ваш браузер не поддерживает аудио элемент.
+        </audio>
+
+        <div class="kupalinka_container" id="kupalinka_container">
+            <img src="./img/kupalinka.jpg" class="kupalinka">
+        </div>
+        
+
+        <button id="start-btn" class="start-btn" onclick="startGame()">
+            Пачаць гульню
+        </button>
+        
+        <div id="image_container" class="image_container">
+            <img src="./img/zhasmin.jpg" onclick="chooseFlower(this, 'zhasmin');" >
+            <img src="./img/klen.jpg" onclick="chooseFlower(this, 'klen');" >
+            <img src="./img/leshina.jpg" onclick="chooseFlower(this, 'leshina');" >
+            <img src="./img/lipa.jpg" onclick="chooseFlower(this, 'lipa');" >
+            <img src="./img/malina.jpg" onclick="chooseFlower(this, 'malina');" >
+            <img src="./img/rabina.jpg" onclick="chooseFlower(this, 'rabina');" >
+            <img src="./img/siren.jpg" onclick="chooseFlower(this, 'siren');" >
+        </div>
+
+        <a href="./index.html">Галоўная старонка</a>
+    </div>
+
+    <script src="./js/derevo.js"></script>
+</body>
+</html>

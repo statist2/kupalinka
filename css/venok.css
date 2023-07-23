@@ -1,0 +1,59 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/background.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.start-btn {
+    display: flex;
+    background-color: rgb(75, 129, 4);
+    padding: 3px;
+    border-width: 0px;
+    border-radius: 5px;
+    font-size: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+
+}
+
+.image_container {
+    display: grid;
+    grid-template-columns: repeat(4, 17vh); /* Распределение на 4 колонки */
+    gap: 10px; /* Расстояние между картинками */
+    place-content: center;
+    width: auto;
+    margin: 20px;
+}
+  
+  /* Стилизация картинок (опционально) */
+.image_container img {
+    width: 100%; /* Чтобы картинки занимали 100% ширины ячейки */
+    height: auto; /* Автоматический подсчет высоты */
+    object-fit: cover; /* Уменьшение/увеличение картинки, чтобы она заполнила ячейку без искажений */
+    border-radius: 5px; /* Опциональное закругление углов */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3); /* Опциональная тень для эффекта поднятия */
+}
+
+.image_container img.right_choose{
+    opacity: 0.3;
+}
+
+.kupalinka_container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.kupalinka {
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+}

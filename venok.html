@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Вяночкi ад Купалiнкi</title>
+    <link rel="stylesheet" href="./css/venok.css">
+</head>
+<body>
+    <div class="content" id="content" style="display: none;">
+        <audio id="intro-sound">
+            <source src="./sound/intro.ogg" type="audio/ogg">
+            Ваш браузер не поддерживает аудио элемент.
+        </audio>
+
+        <div class="kupalinka_container" id="kupalinka_container">
+            <img src="./img/kupalinka.jpg" class="kupalinka">
+        </div>
+        
+
+        <button id="start-btn" class="start-btn" onclick="startGame()">
+            Пачаць гульню
+        </button>
+        
+        <div id="image_container" class="image_container">
+            <img src="./img/vasilek.jpg" onclick="chooseFlower(this, 'vasilek');" >
+            <img src="./img/kalendula.jpg" onclick="chooseFlower(this, 'kalendula');" >
+            <img src="./img/klever.jpg" onclick="chooseFlower(this, 'klever');" >
+            <img src="./img/len.jpg" onclick="chooseFlower(this, 'len');" >
+            <img src="./img/mak.jpg" onclick="chooseFlower(this, 'mak');" >
+            <img src="./img/romashka.jpg" onclick="chooseFlower(this, 'romashka');" >
+            <img src="./img/tysachalistnik.jpg" onclick="chooseFlower(this, 'tysachalistnik');" >
+        </div>
+
+        <a href="./index.html">Галоўная старонка</a>
+    </div>
+
+    <script src="./js/venok.js"></script>
+</body>
+</html>

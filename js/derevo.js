@@ -5,17 +5,17 @@ flowers = ["zhasmin", "klen", "leshina", "lipa", "malina", "rabina", "siren"]
 shuffle(flowers)
 
 combinations = {
-    zhasmin: new Audio("../sound/zhasmin.ogg"),
-    klen: new Audio("../sound/klen.ogg"),
-    leshina: new Audio("../sound/leshina.ogg"),
-    lipa: new Audio("../sound/lipa.ogg"),
-    malina: new Audio("../sound/malina.ogg"),
-    rabina: new Audio("../sound/rabina.ogg"),
-    siren: new Audio("../sound/siren.ogg"),
-    rightChoose: new Audio("../sound/right.ogg"),
-    wrongChoose: new Audio("../sound/wrong.ogg"),
-    youWinFlower: new Audio("../sound/you win flower.ogg"),
-    youWinTree: new Audio("../sound/you win tree.ogg"),
+    zhasmin: new Audio("./sound/zhasmin.ogg"),
+    klen: new Audio("./sound/klen.ogg"),
+    leshina: new Audio("./sound/leshina.ogg"),
+    lipa: new Audio("./sound/lipa.ogg"),
+    malina: new Audio("./sound/malina.ogg"),
+    rabina: new Audio("./sound/rabina.ogg"),
+    siren: new Audio("./sound/siren.ogg"),
+    rightChoose: new Audio("./sound/right.ogg"),
+    wrongChoose: new Audio("./sound/wrong.ogg"),
+    youWinFlower: new Audio("./sound/you_win_flower.ogg"),
+    youWinTree: new Audio("./sound/you_win_tree.ogg"),
 }
 const introSound = document.getElementById("intro-sound");
 

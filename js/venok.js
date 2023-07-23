@@ -5,17 +5,17 @@ flowers = ["vasilek", "kalendula", "klever", "len", "mak", "romashka", "tysachal
 shuffle(flowers)
 
 combinations = {
-    vasilek: new Audio("../sound/vasilek.ogg"),
-    kalendula: new Audio("../sound/kalendula.ogg"),
-    klever: new Audio("../sound/klever.ogg"),
-    len: new Audio("../sound/len.ogg"),
-    mak: new Audio("../sound/mak.ogg"),
-    romashka: new Audio("../sound/romashka.ogg"),
-    tysachalistnik: new Audio("../sound/tysachalistnik.ogg"),
-    rightChoose: new Audio("../sound/right.ogg"),
-    wrongChoose: new Audio("../sound/wrong.ogg"),
-    youWinFlower: new Audio("../sound/you win flower.ogg"),
-    youWinTree: new Audio("../sound/you win tree.ogg"),
+    vasilek: new Audio("./sound/vasilek.ogg"),
+    kalendula: new Audio("./sound/kalendula.ogg"),
+    klever: new Audio("./sound/klever.ogg"),
+    len: new Audio("./sound/len.ogg"),
+    mak: new Audio("./sound/mak.ogg"),
+    romashka: new Audio("./sound/romashka.ogg"),
+    tysachalistnik: new Audio("./sound/tysachalistnik.ogg"),
+    rightChoose: new Audio("./sound/right.ogg"),
+    wrongChoose: new Audio("./sound/wrong.ogg"),
+    youWinFlower: new Audio("./sound/you_win_flower.ogg"),
+    youWinTree: new Audio("./sound/you_win_tree.ogg"),
 }
 const introSound = document.getElementById("intro-sound");
 
